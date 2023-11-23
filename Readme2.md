@@ -6,64 +6,82 @@ Correct Answer of cpanel certification:-
 
 In which WHM interface can you configure the forwarders for the root, cpanel, and nobody mail accounts?
 WHM Home » Server Contacts » Edit System Mail Preferences
+
 José sends an email message to Maria. If the system cannot deliver the message, José will get a notification from which of the following sources?
 The mailer daemon.
+
 Given the following options, which describe an actual reason that the system may place a message into the Exim queue?
 There are DNS issues preventing Exim from finding the remote mail server.
-Which of the following options accurately describes the behavior of an open relay server?
 
+Which of the following options accurately describes the behavior of an open relay server?
 An open relay server does not require you to authenticate. -
+
 If there is a long delay indicated when an email is being sent, the Mailer Daemon will send a warning message to which of the following destinations?
 The email's sender.
+
 Which of the following options best indicate a legitimate reason that would describe why you would want to configure the forwarder address fields within the WHM Home » Server Contacts » Edit System Mail Preferences interface?
 To prevent emails destined for "root" from getting frozen within the mail queue.
+
 Which of the following options accurately describes the behavior of an open relay server?
 An open relay server does not require you to authenticate. -
+
 Justine's boss just told her that the authentication daemon for the mail server is broken.  Which of the following options best indicates the component of the mail system that is affected by this?
 The component that validates user credentials.
+
 Which of the following actions can you perform in the WHM Home » Email » Mail Queue Manager interface?
 Delete a particular message permanently so that is not delivered.
+
 Given the following options, which describe an actual reason that the system may place a message into the Exim queue?
 The load average on the server is above the delivery threshold.
+
 Which of the following options describe an actual value that can be adjusted within the WHM Home » Service Configuration » Mailserver Configuration interface?
 Controlling the maximum and spare quantities of authentication daemon processes.
 
 Which of the following methods best indicate the recommended approach for backing up, restoring or resetting the system's Exim configuration?
 Use the corresponding functions found within the Exim Configuration Manager interface, in WHM.
+
 Which of the following options found in the Exim Configuration Manager - Basic Editor interface in WHM can best be described as the option that allows you to edit the list of IP addresses that the system excludes ONLY from SMTP sender verification checks?
- 
 Sender verification bypass IP addresses
+
 You can use the Exim Configuration Manager - Basic Editor to configure Exim to deliver mail without scanning messages based on which of the following criteria?
 When the message is over a certain size.
+
 Which of the following options found in the Exim Configuration Manager - Basic Editor interface in WHM can best be described as enabling the checking of DNS resolution to see if the sender's domain exists?
 Sender Verification
+
 Which of the following options best describes the type of SpamAssassin options that appear in the Exim Configuration Manager - Basic Editor interface, found in WHM?  
 Options that affect if and how Exim passes messages to SpamAssassin.
+
 Which of the following items from the WHM Home » Service Configuration » Exim Configuration Manager - Basic Editor interface would allow you to exclude mail sent from specific remote IP addresses or hostnames from being subjected to recipient verification checks, sender checks, spam checks, and relay checks?
 Trusted SMTP IP Addresses
-Within which of the following WHM interfaces can you enable additional ports for Exim to listen for SMTP connections on?
 
+Within which of the following WHM interfaces can you enable additional ports for Exim to listen for SMTP connections on?
 WHM Home » Service Configuration » Service Manager
+
 Which of the following options best describes the term email reputation?
 It is a calculation of the likelihood of a message being spam based on other messages sent from the same server. -
+
 Which of the following options found in the Exim Configuration Manager - Basic Editor interface in WHM can best be described as enabling the contacting of the sender's mail server to see if the sender exists?
 Sender Verification Callouts
 
 Which of the following tools may help you to resolve issues indicated by the time moved backwards warning?
-
 The "ntp" tool.
-Which of the following Mail interfaces in WHM can provide you with a historical snapshot of the mail queue?
 
+Which of the following Mail interfaces in WHM can provide you with a historical snapshot of the mail queue?
 Mail Delivery Reports
+
 Given the following options, which accurately describes the behavior of the Mail Troubleshooter interface, found in WHM?
 It does not send an actual test message, but simulates sending one.
+
 Given the following options, which best describes something about an email address that can be determined by using the WHM Home » Email » Mail Troubleshooter interface, found in WHM?
 It will indicate whether the destination address forwards mail to a remote server.
 
 If you suspect that mail has not been delivered because the user is over their quota, in which of the following WHM interfaces might you look to confirm why the message was not delivered?
 WHM Home » Email » Mail Delivery Reports
+
 Which of the following options best indicate the typical delivery failure rate that a spamming email account will report, if examining from the Mail Delivery Reports interface found in WHM?
 The account will have a high failure rate.
+
 Given the following options, which of these accurately describe the behavior of the Mail Troubleshooter interface, found in WHM?
 It can report the remote or local server that Exim uses to hand off messages for a specific email address.
 
@@ -71,6 +89,7 @@ If the mail server defers a message, what did it actually do to the message?
 Delayed it.
 Rejected it.
 Classified it as spam.
+
 All mail from a specific user is neither delivered to the inbox nor bounced. When you check the WHM Home » Email » Mail Delivery Reports interface, you see a funnel-shaped icon next to the message.
 Which of the following options best describes what this probably indicates?
 The message was likely rejected at SMTP-time due to spam-like characteristics.
