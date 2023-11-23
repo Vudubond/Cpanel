@@ -1,4 +1,8 @@
+# cPanel
 cPanel & WHM Sales Professional, cPanel & WHM Administrator Certification (CWA), cPanel Professional Certification (CPP) and cPanel & WHM System Administrator I Certification (CWSA-1)
+
+Correct Answer of cpanel certification:-
+----------------------------------------
 
 In which WHM interface can you configure the forwarders for the root, cpanel, and nobody mail accounts?
 WHM Home » Server Contacts » Edit System Mail Preferences
